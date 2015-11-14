@@ -1,0 +1,24 @@
+@CHARSET "ISO-8859-1";
+body {background-color:#eeeeee;}
+#main_box
+{
+	border: 2px solid black;
+}
+#top_box {
+	text-align:center;
+	border: 2px solid black;
+	border-radius: 4px;
+	margin: 2px;
+}
+#middle_box {
+	text-align: center;
+	border: 2px solid black;
+	border-radius: 4px;
+	margin: 2px;
+}
+#bottom_box {
+	text-align: center;
+	border: 2px solid black;
+	border-radius: 4px;
+	margin: 2px;
+}
