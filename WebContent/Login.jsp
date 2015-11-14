@@ -9,15 +9,32 @@
 </head>
 <body>
 	<div id='main_box' title='main box'>
-		<div id='top_box' title='top box'>
-			<img alt="LOGO" src="/resources/Test.png">
-			<h2>Header</h2>
+		<div id='navbar' title='top box'>
+			<img id='logo' alt="LOGO" src="CreditSeekerLogo.bmp" >
+			<ul>
+				<li><a href="#">Login</a></li>
+				<li><a href="#">Register</a></li>
+				<li><a href="#">Help</a></li>
+			</ul>
 		</div>
 		<div id='middle_box' title='middle box'>
 			<h2>Login Form</h2>
+			<div>
+				<form>
+					Username:<br>
+					<input type="text" name="username" value="Username">
+					<br>
+					Password:<br>
+					<input type="text" name="password" value="Password">
+					<br><br>
+					<input id='LoginButton' type="submit" value="Login">
+					<br><br>
+				</form>
+			</div>
 		</div>
 		<div id='bottom_box' title='bottom box'>
-			<h2>Footer</h2>
+			<h2>Footer Company Info</h2>
+			<p>Links on Links on Links</p>
 		</div>
 	</div>
 </body>

@@ -4,11 +4,31 @@ body {background-color:#eeeeee;}
 {
 	border: 2px solid black;
 }
-#top_box {
-	text-align:center;
+#navbar {
 	border: 2px solid black;
 	border-radius: 4px;
 	margin: 2px;
+}
+#navbar ul {
+	margin:0;
+	padding: 5px;
+	list-style-type: none;
+	text-align:right;
+}
+#navbar ul li {
+	display: inline;
+}
+#navbar ul li a {
+	text-decoration: none;
+	color:Black;
+	padding: 5px;
+}
+#logo {
+	width:250px;
+	height: 64px;
+	border: 2px solid black;
+	border-radius: 25px;
+	margin: 5px;
 }
 #middle_box {
 	text-align: center;
