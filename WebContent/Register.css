@@ -1,0 +1,49 @@
+@CHARSET "ISO-8859-1";
+body {background-color:#eeeeee;}
+#main_box
+{
+	border: 2px solid black;
+}
+#navbar {
+	border: 2px solid black;
+	border-radius: 4px;
+	margin: 2px;
+}
+#navbar ul {
+	margin:0;
+	padding: 5px;
+	list-style-type: none;
+	text-align:right;
+}
+#navbar ul li {
+	display: inline;
+}
+#navbar ul li a {
+	text-decoration: none;
+	color:Black;
+	padding: 5px;
+}
+#logo {
+	width:250px;
+	height: 64px;
+	border: 2px solid black;
+	border-radius: 25px;
+	margin: 5px;
+}
+#middle_box {
+	text-align: center;
+	border: 2px solid black;
+	border-radius: 4px;
+	margin: 2px;
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+#login-btn {
+	margin-bottom: 5px;
+}
+#bottom_box {
+	text-align: center;
+	border: 2px solid black;
+	border-radius: 4px;
+	margin: 2px;
+}

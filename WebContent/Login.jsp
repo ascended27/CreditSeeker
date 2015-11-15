@@ -13,7 +13,7 @@
 			<a href="Home.jsp"><img id='logo' alt="LOGO" src="CreditSeekerLogo.bmp" ></a>
 			<ul>
 				<li><input type='button' onclick="location.href='Login.jsp';" value="Login" /></li>
-				<li><input type='button' onclick="location.href='#';" value="Register" /></li>
+				<li><input type='button' onclick="location.href='Register.jsp';" value="Register" /></li>
 				<li><input type='button' onclick="location.href='#';" value="Help" /></li>
 			</ul>
 		</div>
@@ -22,12 +22,12 @@
 			<div>
 				<form>
 					Username:<br>
-					<input type="text" name="username" value="Username">
+					<input type="text" name="username">
 					<br>
 					Password:<br>
-					<input type="text" name="password" value="Password">
+					<input type="text" name="password">
 					<br><br>
-					<input id='LoginButton' type="submit" value="Login">
+					<input id='LoginButton' type="submit">
 					<br><br>
 				</form>
 			</div>
