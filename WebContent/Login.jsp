@@ -10,11 +10,11 @@
 <body>
 	<div id='main_box' title='main box'>
 		<div id='navbar' title='top box'>
-			<img id='logo' alt="LOGO" src="CreditSeekerLogo.bmp" >
+			<a href="Home.jsp"><img id='logo' alt="LOGO" src="CreditSeekerLogo.bmp" ></a>
 			<ul>
-				<li><a href="#">Login</a></li>
-				<li><a href="#">Register</a></li>
-				<li><a href="#">Help</a></li>
+				<li><input type='button' onclick="location.href='Login.jsp';" value="Login" /></li>
+				<li><input type='button' onclick="location.href='#';" value="Register" /></li>
+				<li><input type='button' onclick="location.href='#';" value="Help" /></li>
 			</ul>
 		</div>
 		<div id='middle_box' title='middle box'>
