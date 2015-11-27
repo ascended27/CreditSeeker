@@ -3,9 +3,9 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="Login.css">
+<link rel="stylesheet" type="text/css" href="Home.css">
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Credit Seeker</title>
+<title>Insert title here</title>
 </head>
 <body>
 	<div id='main_box' title='main box'>
@@ -18,18 +18,11 @@
 			</ul>
 		</div>
 		<div id='middle_box' title='middle box'>
-			<h2>Login Form</h2>
-			<div>
-				<form action="LoginCheck.jsp" method="post">
-					Username:<br>
-					<input type="text" name="username">
-					<br>
-					Password:<br>
-					<input type="password" name="password">
-					<br><br>
-					<input id='LoginButton' type="submit" value="Submit" />
-					<br><br>
-				</form>
+			<div id='middle_text'>
+				<h1>Login</h1>
+				<p>To Login press the Login button</p>
+				<h1>Register</h1>
+				<p>To Register press the register button</p>
 			</div>
 		</div>
 		<div id='bottom_box' title='bottom box'>

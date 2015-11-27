@@ -8,7 +8,7 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
-	<classpathentry kind="lib" path="C:/Users/Admin/Desktop/Credit Seeker Account Mgmt System/ojdbc6.jar"/>
 	<classpathentry kind="lib" path="C:/apps/jboss-as-7.1.1.Final/bundles/javax/servlet/api/v25/jbosgi-http-api-1.0.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Desktop/Programming/eIntern/ojdbc6.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

@@ -14,7 +14,7 @@
 			<ul>
 				<li><input type='button' onclick="location.href='Login.jsp';" value="Login" /></li>
 				<li><input type='button' onclick="location.href='Register.jsp';" value="Register" /></li>
-				<li><input type='button' onclick="location.href='#';" value="Help" /></li>
+				<li><input type='button' onclick="location.href='Help.jsp';" value="Help" /></li>
 			</ul>
 		</div>
 		<div id='middle_box' title='middle box'>
