@@ -36,14 +36,7 @@
 	  }catch(Exception e){
 		  System.out.println("Exception occured!" + e.getMessage()+ " " + e.getStackTrace());
 	  }
-	  
-	  /*if((username.equals("test") && password.equals("test")))
-	  {
-	  	session.setAttribute("username", username);
-	  	response.sendRedirect("MainPage.jsp");
-	  }
-	  else
-		  response.sendRedirect("Help.jsp");*/
+
 	  %>
 </body>
 </html>

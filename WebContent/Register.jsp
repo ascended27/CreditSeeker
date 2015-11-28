@@ -3,7 +3,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="Register.css">
+<link rel="stylesheet" type="text/css" href="css/Register.css">
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Credit Seeker</title>
 </head>
@@ -20,7 +20,7 @@
 		<div id='middle_box' title='middle box'>
 			<div id='middle_text'>
 				<h1>Registration</h1>
-				<form>
+				<form action="RegisterUpdate.jsp" method="POST">
 					Name:<br>
 					<input type="text" name="name">
 					<br>
@@ -31,10 +31,13 @@
 					<input type="text" name="password">
 					<br>
 					Confirm Password:<br>
-					<input type="text" name="password">
+					<input type="text" name="passwordConfirm">
 					<br>
-					Address:<br>
-					<input type="text" name="address">
+					Address 1:<br>
+					<input type="text" name="addressOne">
+					<br>
+					Address 2:<br>
+					<input type="text" name="addressTwo">
 					<br>
 					City:<br>
 					<input type="text" name="city">
@@ -43,7 +46,7 @@
 					<input type="text" name="state">
 					<br>
 					Zip Code:<br>
-					<input type="text" name="zip code">
+					<input type="text" name="zipCode">
 					<br><br>
 					<input id='LoginButton' type="submit">
 					<br><br>
