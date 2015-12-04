@@ -1,5 +1,6 @@
 @CHARSET "ISO-8859-1";
 body {background-color:#eeeeee;}
+h3{color:red;}
 #main_box
 {
 	border: 2px solid black;
@@ -31,40 +32,10 @@ body {background-color:#eeeeee;}
 	margin: 5px;
 }
 #middle_box {
-	text-align: left;
+	text-align: center;
 	border: 2px solid black;
 	border-radius: 4px;
 	margin: 2px;
-	padding-bottom: 50px;
-	padding-top: 50px;
-}
-#middle_box_menu {
-	border: 2px solid black;
-	border-radius: 4px;
-	margin: 2px;
-}
-#middle_box_menu ul {
-	margin:0;
-	padding: 5px;
-	list-style-type: none;
-	text-align:left;
-}
-#middle_box_menu ul li {
-	display: inline;
-}
-#middle_box_menu ul li a {
-	text-decoration: none;
-	color:Black;
-	padding: 5px;
-}
-#mainBox {
-	float: center;
-	border: 2px solid black;
-	border-radius: 4px;
-	margin: 2px;
-}
-#login-btn {
-	margin-bottom: 5px;
 }
 #bottom_box {
 	text-align: center;

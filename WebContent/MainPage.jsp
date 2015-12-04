@@ -8,18 +8,23 @@
 <title>Main Page</title>
 </head>
 <body>
-	<%int menuButton = 0; %>
 	<div id='main_box' title='main box'>
 		<div id='navbar' title='top box'>
 			<a href="Home.jsp"><img id='logo' alt="LOGO" src="CreditSeekerLogo.bmp" ></a>
 			<ul>
-				<li><input type='button' onclick="location.href='Login.jsp';" value="Login" /></li>
+				<li><%out.println(session.getAttribute("Name")); %></li>
 				<li><input type='button' onclick="location.href='Register.jsp';" value="Register" /></li>
 				<li><input type='button' onclick="location.href='Help.jsp';" value="Help" /></li>
 				<li><input type='button' onclick="location.href='Logout.jsp';" value="Logout"/></li>
 			</ul>
 		</div>
 		<div id='middle_box' title='middle box'>
+			<div id='middle_box_menu' >
+				<ul>
+					<li><input type='button' onclick="location.href='SearchMenu.jsp';" value="Search" /></li>
+					<li><input type='button' onclick="location.href='Register.jsp';" value="Approve" /></li>
+				</ul>
+			</div>
 
 		</div>
 		<div id='bottom_box' title='bottom box'>

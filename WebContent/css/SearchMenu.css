@@ -31,12 +31,9 @@ body {background-color:#eeeeee;}
 	margin: 5px;
 }
 #middle_box {
-	text-align: left;
 	border: 2px solid black;
 	border-radius: 4px;
 	margin: 2px;
-	padding-bottom: 50px;
-	padding-top: 50px;
 }
 #middle_box_menu {
 	border: 2px solid black;
@@ -47,7 +44,7 @@ body {background-color:#eeeeee;}
 	margin:0;
 	padding: 5px;
 	list-style-type: none;
-	text-align:left;
+	text-align:center;
 }
 #middle_box_menu ul li {
 	display: inline;
@@ -56,6 +53,12 @@ body {background-color:#eeeeee;}
 	text-decoration: none;
 	color:Black;
 	padding: 5px;
+}
+#userInfo{
+	border: 2px solid black;
+	border-radius: 4px;
+	margin: 2px;
+	text-align:center;	
 }
 #mainBox {
 	float: center;

@@ -3,7 +3,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="css/Register.css">
+<link rel="stylesheet" type="text/css" href="css/LoginError.css">
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Credit Seeker</title>
 </head>
@@ -18,40 +18,17 @@
 			</ul>
 		</div>
 		<div id='middle_box' title='middle box'>
-			<div id='middle_text'>
-				<h1>Registration</h1>
-				<form  action="RegisterUpdate.jsp" method="post">
-					First Name:<br>
-					<input type="text" name="firstName">
-					<br>
-					Last Name:<br>
-					<input type="text" name="lastName">
-					<br>
+			<h2>Login Form</h2>
+			<div>
+				<form action="LoginCheck.jsp" method="post">
+					<h3>Username or Password Incorrect</h3>
 					Username:<br>
 					<input type="text" name="username">
 					<br>
 					Password:<br>
-					<input type="text" name="password">
-					<br>
-					Confirm Password:<br>
-					<input type="text" name="passwordConfirm">
-					<br>
-					Address 1:<br>
-					<input type="text" name="addressOne">
-					<br>
-					Address 2:<br>
-					<input type="text" name="addressTwo">
-					<br>
-					City:<br>
-					<input type="text" name="city">
-					<br>
-					State:<br>
-					<input type="text" name="state">
-					<br>
-					Zip Code:<br>
-					<input type="text" name="zipCode">
+					<input type="password" name="password">
 					<br><br>
-					<input id='RegisterButton' type="submit">
+					<input id='LoginButton' type="submit" value="Submit" />
 					<br><br>
 				</form>
 			</div>

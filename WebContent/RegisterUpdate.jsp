@@ -7,9 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<%	int userCount = 1;
-		String name = request.getParameter("name");
-		System.out.println(name);
+	<%
+		String firstName = request.getParameter("firstName");
+		System.out.println(firstName);
+		String lastName = request.getParameter("lastName");
 		String username = request.getParameter("username");
 		String password = request.getParameter("password");
 		String passwordConfirm = request.getParameter("passwordConfirm");
@@ -24,18 +25,17 @@
 		String dbPass = "password";
 		Connection conn = null;
 		PreparedStatement registrationStmt = null;
+		PreparedStatement userCountStmt = null;
 		
 		try{
 			DriverManager.registerDriver(driver);
 			conn = DriverManager.getConnection(dbURL,dbUser,dbPass);
 			if(password.equals(passwordConfirm))
 			{
-				//TODO: USER ID UPDATING
-				userCount++;
-				registrationStmt = conn.prepareStatement("INSERT INTO CLIENT_TABLE(USER_ID,USER_NAME,PASSWORD,NAME,CITY,STATE,ADDRESS_1,ADDRESS_2,ZIP) VALUES (?,?,?,?,?,?,?,?,?)");
-				registrationStmt.setInt(1, userCount);
-				registrationStmt.setString(2,name);
-				registrationStmt.setString(3,username);
+				registrationStmt = conn.prepareStatement("INSERT INTO APPROVAL_TABLE(USER_NAME,PASSWORD,FIRST_NAME,LAST_NAME,CITY,STATE,ADDRESS_1,ADDRESS_2,ZIP) VALUES (?,?,?,?,?,?,?,?,?)");
+				registrationStmt.setString(1,username);
+				registrationStmt.setString(2,firstName);
+				registrationStmt.setString(3,lastName);
 				registrationStmt.setString(4,password);
 				registrationStmt.setString(5,addressOne);
 				registrationStmt.setString(6,addressTwo);
@@ -52,7 +52,9 @@
 			}
 		}catch(Exception e){
 			System.out.println("Exception occured!" + e.getMessage()+ " " + e.getStackTrace());
-		}
+		}finally{
+			  conn.close();
+		  }
 	%>
 </body>
 </html>
